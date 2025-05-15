@@ -15,8 +15,8 @@ This tool converts a *CSV of use cases* into a *formatted JSON array* for Credo 
 
 <!-- TOC --><a name="-overview"></a>
 ## 🗺️ Overview
-- Each row in the input CSV represents a *single* use case (to be transformed into a JSON dicts).
-- The script generates a JSON file (a *list of dicts*) of use cases formatted to the schema defined [here](./use-case-schema.json).
+- Each row in the input CSV represents a *single* use case (to be transformed into a JSON dict).
+- The script generates a JSON file (a *list of dicts*) of use cases formatted to the schema defined [here](./docs/use-case-schema.json).
 - Optional *metadata* like Jira tickets and prompts are embedded in each use case's *description*.
 
 <!-- TOC --><a name="-mapping-rules"></a>
@@ -39,6 +39,6 @@ This tool converts a *CSV of use cases* into a *formatted JSON array* for Credo 
 
 <!-- TOC --><a name="-support"></a>
 ## 🛠️ Support
-- Coordinate with your Credo AI technical contact before running a bulk upload.
+- ***Coordinate with your Credo AI technical contact*** before running a bulk upload.
 - Review the [official Credo AI bulk upload docs](https://knowledge.credo.ai/bulk-use-case-upload).
   - *Pay special attention to the **"Things to note"** section.*
