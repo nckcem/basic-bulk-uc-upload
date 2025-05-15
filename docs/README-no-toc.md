@@ -17,7 +17,7 @@ This tool converts a *CSV of use cases* into a *formatted JSON array* for Credo 
 | `generative_ai_tool`  | `name`              | Name of the use case                    |
 | `purpose_of_use`      | `description`       | Appended under "Purpose of Use"         |
 | `response_to_request` | `description`       | Appended under "Response to Request"    |
-| `Prompts`             | `description`       | Appended under "Prompts"                |
+| `prompts`             | `description`       | Appended under "Prompts"                |
 | `ticket_number`       | `description`       | Appended at the end                     |
 | `jira_ticket`         | `description`       | Appended at the end                     |
 | `status`              | `governance_status` | Mapped to integer (e.g. "Approved" → 1) |
