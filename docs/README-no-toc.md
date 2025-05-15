@@ -26,7 +26,7 @@ This tool converts a *CSV of use cases* into *formatted JSON* for Credo AI's Bul
 | `jira_ticket`         | `description`       | Appended at the end                     |
 
 ## 🐣 3. Simple Example
-The JSON below is formatted for Credo AI's Bulk Upload and represents a *two* use cases. For each, optional metadata in the description field is not included.
+The JSON below is formatted for Credo AI's Bulk Upload and represents *two* use cases. For each, optional metadata in the description field is not included.
 ```json
 {
    "data":{
