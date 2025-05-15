@@ -7,7 +7,7 @@ This tool converts a *CSV of use cases* into a *formatted JSON array* for Credo 
 [TOC]
 
 ## 🗺️ Overview
-- Each row in the input CSV represents a *single* use case (to be transformed into a JSON dict).
+- Each row in the input CSV represents a *single* use case (to be transformed into a *single* JSON dict).
 - The script generates a JSON file (a *list of dicts*) of use cases formatted to the schema defined [here](./docs/use-case-schema.json).
 - Optional *metadata* like Jira tickets and prompts are embedded in each use case's *description*.
 
