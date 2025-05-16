@@ -33,6 +33,7 @@ This tool converts a *CSV of use cases* into *formatted JSON* for Credo AI's Bul
 | `purpose_of_use`      | `description`       | Appended under "Purpose of Use"         |
 | `response_to_request` | `description`       | Appended under "Response to Request"    |
 | `prompts`             | `description`       | Appended under "Prompts"                |
+| `product`             | `description`       | Appended under "Product"                |
 | `ticket_number`       | `description`       | Appended under "Ticket Number"          |
 | `jira_ticket`         | `description`       | Appended under "JIRA Ticket"            |
 
