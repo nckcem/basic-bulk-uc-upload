@@ -18,12 +18,12 @@ This tool converts a *CSV of use cases* into *formatted JSON* for Credo AI's Bul
 ## 🔁 2. Mapping Rules
 | CSV Column            | JSON Field          | Notes                                   |
 | --------------------- | ------------------- | --------------------------------------- |
-| `generative_ai_tool`  | `name`              | Name of the use case                    |
+| `use_case_name`       | `name`              | Name of the use case                    |
 | `purpose_of_use`      | `description`       | Appended under "Purpose of Use"         |
 | `response_to_request` | `description`       | Appended under "Response to Request"    |
 | `prompts`             | `description`       | Appended under "Prompts"                |
-| `ticket_number`       | `description`       | Appended at the end                     |
-| `jira_ticket`         | `description`       | Appended at the end                     |
+| `ticket_number`       | `description`       | Appended under "Ticket Number"          |
+| `jira_ticket`         | `description`       | Appended under "JIRA Ticket"            |
 
 ## 🐣 3. Simple Example
 The JSON below is formatted for Credo AI's Bulk Upload and represents *two* use cases. For each, optional metadata in the description field is not included.
