@@ -39,18 +39,18 @@ This tool converts a *CSV of use cases* into *formatted JSON* for Credo AI's Bul
 
 <!-- TOC --><a name="-3-simple-example"></a>
 ## 🐣 3. Simple Example
-The JSON below is formatted for Credo AI's Bulk Upload and represents *two* use cases. For each, optional metadata in the description field is not included.
+The JSON below is formatted for Credo AI's Bulk Upload and represents *two* use cases. In this small example, for each use case, optional metadata in the description field is *not* included.
 ```json
 {
    "data":{
       "items":[
          {
             "name":"Autodesk Use Case Demo #1",
-            "description":"The very first Autodesk AI use case to be uploaded into Credo AI"
+            "description":"The very first Autodesk AI use case to be uploaded into Credo AI."
          },
          {
             "name":"Autodesk Use Case Demo #2",
-            "description":"The second Autodesk AI use case"
+            "description":"The second Autodesk AI use case."
          }
       ]
    }
