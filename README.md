@@ -20,7 +20,7 @@ This tool converts a *CSV of use cases* into *formatted JSON* for Credo AI's Bul
 
 <!-- TOC --><a name="-1-overview"></a>
 ## 🗺️ 1. Overview
-- Each row in the input CSV represents a *single* use case, to be transformed into a *single* JSON dict, which is then added to a running list.
+- Each *row* in the input CSV represents a *single* use case, to be transformed into a *single* JSON dict, which is then added to a running list.
 - Once all JSON dicts are appended, they're wrapped in a properly formatted payload for Credo AI’s Bulk Upload feature (per the [defined schema](./docs/use-case-schema.json)).
 - Optional *metadata* like Jira tickets and prompts are embedded in each use case's *description*.
 - The formatted payload is then dumped to a JSON file.
