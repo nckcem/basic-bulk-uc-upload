@@ -1,6 +1,6 @@
 <!-- omit in toc -->
-# Autodesk $\rightarrow$ Credo AI: Use Case Bulk Upload
-This tool converts a *CSV of use cases* into *formatted JSON* for Credo AI's Bulk Upload feature, according to ***Autodesk's personal context*** for AI use cases.
+# Credo AI: Use Case Bulk Upload
+This tool converts a *CSV of use cases* into *formatted JSON* for Credo AI's Bulk Upload feature, according to ***personal context*** for AI use cases.
 - From the app homepage, the bulk upload feature is found via:
   - **AI registry > Use cases > ${\underline{\uparrow}}$**.
     - $\underline{\uparrow}$ is the button for bulk upload (left of the `+ Add use case` button).
