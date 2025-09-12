@@ -45,12 +45,12 @@ The JSON below is formatted for Credo AI's Bulk Upload and represents *two* use 
    "data":{
       "items":[
          {
-            "name":"Autodesk Use Case Demo #1",
-            "description":"The very first Autodesk AI use case to be uploaded into Credo AI."
+            "name":"Customer Use Case Demo #1",
+            "description":"The very first Customer AI use case to be uploaded into Credo AI."
          },
          {
-            "name":"Autodesk Use Case Demo #2",
-            "description":"The second Autodesk AI use case."
+            "name":"Customer Use Case Demo #2",
+            "description":"The second Customer AI use case."
          }
       ]
    }
